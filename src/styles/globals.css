@@ -1,3 +1,39 @@
+/* tailwind configuration */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p {
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    font-size: 36px;
+    font-family: 'Outfit', sans-serif;
+}
+
+h4 {
+    font-size: 28px;
+    font-family: 'Outfit', sans-serif;
+}
+
+h5 {
+    font-size: 24px;
+    font-family: 'Outfit', sans-serif;
+}
+
+h6 {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
