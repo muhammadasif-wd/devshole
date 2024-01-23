@@ -1,6 +1,5 @@
 Certainly! Below is a template for your GitHub README.md file. Feel free to customize it based on the specifics of your Next.js boilerplate:
 
-```markdown
 # Next.js Boilerplate
 
 This is a Next.js project bootstrapped with `create-next-app`. It provides a basic structure for building React applications with server-side rendering.
@@ -41,20 +40,6 @@ To get started with this boilerplate, follow these steps:
    ```
 
    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Project Structure
-
-- `/pages`: This directory contains your Next.js pages. The `index.js` file represents the homepage, and you can create additional files for other pages.
-
-- `/public`: Use this directory to store static assets like images and fonts.
-
-- `/styles`: Store your CSS styles in this directory. The `Home.module.css` file is an example of a module-style CSS file used for styling the homepage.
-
-- `.gitignore`: Lists files and directories to be ignored by version control.
-
-- `next.config.js`: Customize Next.js configuration settings here.
-
-- `package.json`: Contains project metadata and dependencies.
 
 ## License
 
