@@ -10,7 +10,7 @@
     "editor.minimap.size": "fill",
     "editor.minimap.showSlider": "always",
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": "explicit"
     },
     "eslint.format.enable": true,
     "eslint.run": "onSave",

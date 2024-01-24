@@ -12,13 +12,13 @@ export default function MainNav() {
     <div>
       <Navbar
         shouldHideOnScroll
-        className="fixed w-full bg-primary/10 shadow-dark/20 dark:shadow-light/20 shadow backdrop-blur container"
-        maxWidth="full"
+        className="fixed w-full bg-primary/5 shadow-dark/10 dark:shadow-light/10 shadow backdrop-blur"
+        maxWidth="2xl"
       >
         <NavbarBrand as={Link} href={"/"}>
           <p className="font-bold text-inherit dark:text-light text-dark">DEVSHOLE</p>
         </NavbarBrand>
-        <NavbarContent className="hidden sm:flex gap-4" justify="center">
+        <NavbarContent className="hidden md:flex gap-4" justify="center">
           <NavbarItem>
             <Link
               className={`${pathname === "/" ? "font-bold text-primary dark:text-foreground" : "dark:text-light text-dark"} `}
@@ -59,7 +59,9 @@ export default function MainNav() {
               Services
             </Link>
           </NavbarItem>
-          <NavbarItem>
+        </NavbarContent>
+        <NavbarContent justify="end">
+          <NavbarItem className="hidden lg:flex">
             <Link
               className={`${pathname === "/pricing" ? "font-bold text-primary dark:text-foreground" : "dark:text-light text-dark"} `}
               href="/pricing"
@@ -68,32 +70,14 @@ export default function MainNav() {
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link
-              className={`${pathname === "/contact" ? "font-bold text-primary dark:text-foreground" : "dark:text-light text-dark"} `}
-              href="/contact"
-            >
-              Contact
-            </Link>
-          </NavbarItem>
-        </NavbarContent>
-        <NavbarContent justify="end">
-          <NavbarItem className="hidden lg:flex">
-            <Link
-              className={`${pathname === "/login" ? "font-bold text-primary dark:text-foreground" : "dark:text-light text-dark"} `}
-              href="/login"
-            >
-              Login
-            </Link>
-          </NavbarItem>
-          <NavbarItem>
             <Button
               as={Link}
-              className={`${pathname === "/sign-up" ? "font-bold text-primary dark:text-foreground" : "dark:text-light text-dark"} `}
+              className={`${pathname === "/contact" ? "font-bold text-primary dark:text-foreground" : "dark:text-light text-dark"} `}
               color="secondary"
-              href="/sign-up"
+              href="/contact"
               variant="flat"
             >
-              Sign Up
+              Contact
             </Button>
           </NavbarItem>
           <NavbarItem>

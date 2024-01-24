@@ -1,6 +1,6 @@
-Certainly! Below is a template for your GitHub README.md file. Feel free to customize it based on the specifics of your Next.js boilerplate:
+Certainly! Below is a template for your GitHub README.md file. Feel free to customize it based on the specifics of your Devshole:
 
-# Next.js Boilerplate
+# Devshole
 
 This is a Next.js project bootstrapped with `create-next-app`. It provides a basic structure for building React applications with server-side rendering.
 
@@ -45,4 +45,4 @@ To get started with this boilerplate, follow these steps:
 
 This project is licensed under the [MIT License](LICENSE).
 
-Make sure to replace the placeholder URLs (`https://github.com/muhammadasif-wd/next.js-boilerplate.git`, etc.) with the actual URLs for your GitHub repository and any other specific details related to your project. Also, consider adding additional sections or information depending on the features and configurations of your Next.js boilerplate.
+Make sure to replace the placeholder URLs (`https://github.com/muhammadasif-wd/devshole.git`, etc.) with the actual URLs for your GitHub repository and any other specific details related to your project. Also, consider adding additional sections or information depending on the features and configurations of your Devshole.
