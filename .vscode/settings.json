@@ -78,12 +78,9 @@
     "cSpell.userWords": [
         "tailwindcss"
     ],
-    "tailwindCSS.emmetCompletions": true,
-    "gitlens.graph.minimap.additionalTypes": [
-        "localBranches",
-        "stashes",
-        "tags",
-        "remoteBranches"
-    ],
-    "typescript.updateImportsOnFileMove.enabled": "always"
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "cSpell.words": [
+        "devshole",
+        "webp"
+    ]
 }
