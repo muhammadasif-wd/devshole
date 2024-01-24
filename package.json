@@ -28,10 +28,7 @@
   "lint-staged": {
     "*.{jsx,tsx}": [
       "git add .",
-      "npm run format",
-      "npm run lint:fix",
-      "npm run format:fix",
-      "npm run lint:eslint"
+      "npm run format"
     ]
   },
   "husky": {

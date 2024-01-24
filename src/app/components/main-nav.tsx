@@ -2,9 +2,11 @@
 import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
 import {usePathname} from "next/navigation";
+import Image from "next/image";
 
 import {ThemeSwitcher} from "./theme-switcher";
 
+import images from "@/assets/images";
 export default function MainNav() {
   const pathname = usePathname();
 
@@ -12,11 +14,11 @@ export default function MainNav() {
     <div>
       <Navbar
         shouldHideOnScroll
-        className="fixed w-full bg-primary/5 shadow-dark/10 dark:shadow-light/10 shadow backdrop-blur"
+        className="fixed w-full shadow-dark/10 dark:shadow-light/10 shadow backdrop-blur"
         maxWidth="2xl"
       >
         <NavbarBrand as={Link} href={"/"}>
-          <p className="font-bold text-inherit dark:text-light text-dark">DEVSHOLE</p>
+          <Image alt="devshole" height={50} src={images.logo} width={150} />
         </NavbarBrand>
         <NavbarContent className="hidden md:flex gap-4" justify="center">
           <NavbarItem>
